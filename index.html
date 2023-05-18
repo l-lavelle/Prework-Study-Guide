@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -38,15 +39,54 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>Use to define style rules for specific elements of HTML page and format them using wide range of style options</li>
+          <li>Types of CSS</li>
+            <ul>
+              <li>Inline CSS: used to style elements directly in HTML file</li>
+              <li>Internal Style Sheet: contains CSS rules for the webpage in head section of HTML file</li>
+              <li>External Style Sheet: keep all CSS rules in separate file and link it to HTML file</li>
+            </ul>
+          <li>CSS Rule: uses selector to define the element to which the rules will apply and properties and values to create declarations</li>
+          <li>Class attributes are used to add styles to certain specific elements instead of all elements</li>
+          <li>CSS Box Model</li>
+            <ul>
+              <li>Every element in CSS is a box </li>
+              <li>Each box consists of margins, borders, padding, and content</li>
+              <li>Margin: defines how much space wanted around <b>outside</b> of element</li>
+              <li>Padding: defines how much space wanted around content <b>inside</b> an element</li>
+            </ul>
+          
         </ul>
       </section>
    
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>Open source version control system which manages changes of documents and programs</li>
+          <li>Master Branch</li>
+          <ul>
+            <li>Contains main working, tested, and ready to deploy code</li>
+          </ul>
+          <li>Feature Branches</li>
+          <ul>
+            <li>Copy of repo that feature deployment work takes place on</li>
+            <li>Makes it easier for multiple developers to work on particular features without disturbing main codebase</li>
+          </ul>
+          <li>Github Issues</li>
+            <ul>
+              <li>Keeps track of tasks and projects</li>
+            </ul>
+          <li>Git Commands
+            <ul>
+              <li>git clone: brings repo that is hosted elsewhere into folder on local machine</li>
+              <li>git status: checks what branch we are currently on</li>
+              <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+              <li>git Add -A: adds files to staging area</li>
+              <li>git commit -m "message": saves file in git</li>
+              <li>git pull origin master: download changes from remote repo to local machine</li>
+              <li>git push origin branch-name: upload git commits to remote repo</li>
+            </ul>
+          </li>
         </ul>
       </section>
    
